@@ -25,9 +25,9 @@ to read. Finish stdin with EOF (Ctrl + D).
 
 Example:
 
-  ./simple-example Makefile loader.scm 
-  loader.scm ll 
-  Makefile @stdout
-  loader.scm @stderr
-  @stdin ss
-  now writing to file ss
+    ./simple-example Makefile loader.scm 
+    loader.scm ll 
+    Makefile @stdout
+    loader.scm @stderr
+    @stdin ss
+    now writing to file ss
