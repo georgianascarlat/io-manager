@@ -3,7 +3,7 @@ io-manager
 
 This is a framework which simplifies the use of IO operations in Scheme.
 
-There is an example that illustrates what one should do in order to use this framework:
+There is an example which illustrates what one should do in order to use this framework:
 
 - load framework: (load "io-manager.scm")
 - wrap the function that uses IO operations: (define main (wrapIO solve read-line))
