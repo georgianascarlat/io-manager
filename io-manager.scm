@@ -179,3 +179,15 @@ return: #<void>
       (closeInputFiles Input)
       (flush-output))))
 
+#|
+
+Obtains the name of the file with index @index from
+an @input object.
+Indexing starts from 1.
+
+return: file name
+
+|#
+
+(define (getFileName input index)
+  (car (list-ref input index)))
